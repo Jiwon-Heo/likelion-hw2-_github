@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>최신 웹디자인 트렌드</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+        body{
+            background-color: white;
+            width:100%;
+            font-family: "Nanum Gothic";
+        }
+        .header{
+            width:100%;
+            height:20%;
+            font-size:xx-large;
+        }
+        .body{
+            display:flex;
+            height:80%;
+            font-size:large;
+        }
+        .content{
+            width:10%;
+            color:red;
+            font-weight:700;
+        }
+        .leftSideBar{
+            width:5%;
+        }
+        .rightSideBar{
+            width:85%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header"><strong>최신 웹디자인 트렌드</strong></div>
+    <div class="body">
+        <div class="leftSideBar"></div>
+        <div class="content">
+            <p>반응형 웹디자인</p>
+            <p>플랫 디자인</p>
+            <p>풀스크린 배경</p>
+            <p>원 페이지 사이트</p>
+            <p>패럴랙스 스크롤링</p>
+            <p>웹 폰트</p>
+        </div>
+        <div class="rightSideBar">
+            <p>-다양한 화면크기에 최적화하다</p>
+            <p>-입체에서 평면으로</p>
+            <p>-콘텐츠에 집중</p>
+            <p>-한 페이지에 모든 내용을 담다</p>
+            <p>-동적인 효과로 강한 인상을!</p>
+            <p>-웹 타이포그래피를 받쳐주는 기술</p>
+        </div>
+    </div>
+</body>
+</html>
